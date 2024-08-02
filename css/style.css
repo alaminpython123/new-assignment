@@ -26,6 +26,8 @@ body{
 }
 .shape{
     font-family: my-font;
+    font-weight: 400px;
+    font-style: italic;
  
 }
 
@@ -67,7 +69,7 @@ body{
   .manu-item{
     position: relative;
   }
-  .toggol-bar i{
+  .toggol-bar{
     color: #FFFF;
     font-size: 25px;
     position: absolute;
@@ -81,6 +83,118 @@ body{
   }
   .body-details{
     margin-top: 50px;
+    max-width: 520px;
+  }
+  .body-details h2{
+    font-size: 78px;
+    line-height: 93px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+
+  }
+  .body-details p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+  }
+  .first-button{
+    padding: 15px 60px;
+    border-radius: 40px;
+    border: none;
+    background: rgba(230, 83, 60, 1);
+  }
+  .first-button a{
+    text-decoration: none;
+    font-weight: 600px;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 1);
+
+  }
+  .secound-button{
+    padding: 15px 60px;
+    border-radius: 40px;
+    border: 1px solid #E3E3E3;
+    background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
+  }
+  .secound-button a{
+    text-decoration: none;
+    font-weight: 600px;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 1);
+
+  }
+
+
+  .body-img img{
+    width: 100%;
+  }
+  .first-count{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    max-width: 193px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 950px;
+
+  }
+  .main-hedar{
+    position: relative;
+  }
+  .first-count h2{
+    font-weight: 900px;
+    font-size: 40px;
+    line-height: 40px;
+    color:  rgba(255, 255, 255, 1);
+    
+  }
+  .first-count p{
+    font-weight: 400px;
+    font-size: 13px;
+    line-height: 20px;
+    color:rgba(255, 255, 255, 0.65);
+    
+
+  }
+  .secound-count{
+    display: flex;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    align-items: center;
+    max-width: 206px;
+    padding: 15px;
+    border-radius: 5%;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 650px;
+
+
+  }
+  .flex-four{
+    display: flex;
+    gap: 20px;
+  }
+  .carcale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(230, 83, 60, 1);
+    padding: 15px;
+    border-radius: 50%;
+  }
+  .carcale i{
+    color: #FFFF;
   }
 
   /* hedar-section-end */
@@ -103,6 +217,25 @@ body{
     .flex-three{
         flex-direction: column;
     }
+    .body-details h2{
+      font-size: 46px;
+      line-height: 43px;
+      font-weight: 900;
+      color: rgba(255, 255, 255, 1);
+  
+    }
+    .first-button{
+      padding: 15px 25px;
+    }
+    .secound-button{
+      padding: 15px 25px;
+    }
+    .first-count{
+      margin-left: 200px;
+      margin-top: -500px;
+    }
+
+  
 
   }
 
