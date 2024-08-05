@@ -196,8 +196,70 @@ body{
   .carcale i{
     color: #FFFF;
   }
+  .carcale-content h3{
+    font-weight: 900px;
+    font-size: 40px;
+    line-height: 40px;
+    color:  rgba(255, 255, 255, 1);
+  }
+  .carcale-content p{
+    font-weight: 400px;
+    font-size: 13px;
+    line-height: 20px;
+    color:rgba(255, 255, 255, 0.65);
+  }
 
   /* hedar-section-end */
+  /* habit-section-start */
+  .habit{
+    padding-top: 40px;
+    background: #181818;
+  }
+  .habit-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .habit-details-content{
+    max-width: 670px;
+  }
+  .habit-details-content h2{
+    font-weight: 900px;
+    font-size: 40px;
+    line-height: 40px;
+    color:  rgba(255, 255, 255, 1);
+    text-align: center;
+  }
+  .habit-details-content p{
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+  }
+  .habit-cercale{
+    margin-top: 15px;
+    display: flex;
+    gap: 47px;
+    
+  }
+  .cercal-redious{
+    max-width: 231px;
+    text-align: center;
+  }
+  .cercale-img img{
+    border-radius: 50%;
+  }
+  .cercale-img{
+    margin-bottom: 10px;
+  }
+
+
+
+  /* habit-section-end */
   /* website-style-end */
   /* Responsive-style-start */
   @media screen and (max-width:576px){
@@ -234,8 +296,17 @@ body{
       margin-left: 200px;
       margin-top: -500px;
     }
+    .secound-count{
+      margin-left: 20px;
+      margin-top: -300px;
+    }
 
-  
+    .habit-cercale{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
 
   }
 
