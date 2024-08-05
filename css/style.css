@@ -213,6 +213,7 @@ body{
   /* habit-section-start */
   .habit{
     padding-top: 40px;
+    padding-bottom: 60px;
     background: #181818;
   }
   .habit-details{
@@ -256,10 +257,86 @@ body{
   .cercale-img{
     margin-bottom: 10px;
   }
+  .cercale-content h3{
+    font-weight: 600px;
+    font-size: 18px;
+    line-height: 21px;
+    color:  rgba(255, 255, 255, 1);
+    margin-bottom: 5px;
+
+
+  }
+  .cercale-content p{
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+
+
+  }
 
 
 
   /* habit-section-end */
+  /* run-section-start */
+  .run{
+    background: #181818;
+    padding-bottom: 60px;
+  }
+  .run-containt{
+    background: rgba(34, 34, 34, 1);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    border-radius: 15px;
+
+  }
+  .run-details{
+    max-width: 443px;
+  }
+  .run-details h2{
+    font-weight: 900px;
+    font-size: 55px;
+    line-height: 57px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 15px;
+
+  }
+
+.run-details p{
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 15px;
+
+}
+.run-details .third-button{
+  padding: 10px 45px;
+  border-radius: 20px;
+  border: none;
+  background: rgba(230, 83, 60, 1);
+
+}
+.run-details .third-button a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600px;
+  font-size: 18px;
+  line-height: 22px;
+
+}
+
+  .run-img img{
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .run-img{
+    max-width: 366px;
+  }
+
+  /* run-section-end */
   /* website-style-end */
   /* Responsive-style-start */
   @media screen and (max-width:576px){
@@ -300,6 +377,9 @@ body{
       margin-left: 20px;
       margin-top: -300px;
     }
+    .habit{
+      margin-top: -5px;
+    }
 
     .habit-cercale{
       display: flex;
@@ -307,7 +387,22 @@ body{
       align-items: center;
       flex-direction: column;
     }
-
+    .habit-details-content h2{
+      font-size: 35px;
+    }
+    .run{
+      margin-top: -5px;
+    }
+    .run-containt{
+      flex-direction: column;
+    }
+    .run-details h2{
+      font-size: 45px;
+    }
+    .run-details .third-button{
+      margin-bottom: 25px;
+      width: 100%;
+    }
   }
 
 
