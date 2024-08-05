@@ -337,6 +337,221 @@ body{
   }
 
   /* run-section-end */
+
+  /* Training-section-start */
+  .training{
+    background-color: #181818;
+    padding-bottom: 70px;
+  }
+  .training-tittle{
+    max-width: 600px;
+  }
+  .training-tittle h2{
+    font-weight: 900px;
+    font-size: 48px;
+    line-height: 57px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 10px;
+  }
+  .training-tittle p{
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 35px;
+
+  
+  }
+  .training-photo{
+    display: flex;
+  }
+  .training-live-photo{
+    width: 250px;
+    background-image: url(../images/exercise1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .training-live-photo::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(6, 255, 210, 0.5);
+
+  }
+
+
+
+
+
+  .training-live-photo p{
+    padding-top: 170px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    color: rgba(255, 255, 255, 1);
+
+  }
+  .training-live-img{
+    background-image: url(../images/exercise2\ -\ Copy.png);
+    width: 520px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+  }
+  .training-live-img::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(255, 0, 0, 0.3);
+
+  }
+
+
+
+
+
+
+  .training-live-img p{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 200px;
+    color: rgba(255, 255, 255, 1);
+
+  }
+  .training-live-picture{
+    background-image: url(../images/exercise3.png);
+    width: 290px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+
+  }
+  .training-live-picture::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.5);
+
+  }
+
+
+
+
+
+
+
+  .training-live-picture p{
+    padding-top: 180px;
+    color: rgba(255, 255, 255, 1);
+
+  }
+  .training-live-photo-two{
+    width: 425px;
+    background-image: url(../images/exercise4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 130px;
+    padding-bottom:180px;
+    position: relative;
+
+  }
+  .training-live-photo-two::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.5);
+
+  }
+
+
+
+
+
+
+  .training-live-photo-two p{
+    color: rgba(255, 255, 255, 1);
+    margin-top: 10px;
+    margin-left: 80px;
+  }
+  .training-live-img-two{
+    width: 288px;
+    background-image: url(../images/exercise5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+  }
+
+  .training-live-img-two::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(66, 255, 0, 0.3);
+
+  }
+
+
+
+
+
+  .training-live-img-two p{
+    color: rgba(255, 255, 255, 1);
+  }
+  .training-live-picture-two{
+    width: 347px;
+    background-image: url(../images/exercise6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+  }
+
+  .training-live-picture-two::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 71, 255, 0.3);
+
+  }
+
+
+
+
+
+
+  .training-live-picture-two p{
+    color: rgba(255, 255, 255, 1);
+  }
+  .min-margin{
+    margin-top: -30px;
+  }
+  /* Training-section-end */
   /* website-style-end */
   /* Responsive-style-start */
   @media screen and (max-width:576px){
@@ -402,6 +617,34 @@ body{
     .run-details .third-button{
       margin-bottom: 25px;
       width: 100%;
+    }
+    .training{
+      margin-top: -5px;
+    }
+    .training-tittle{
+      max-width: 320px;
+    }
+    .training-live-picture{
+      display: none;
+    }
+    .training-live-picture-two{
+      display: none;
+    }
+    .training-live-photo{
+      width: 50%;
+    }
+    /* .training-live-photo p{
+      padding: 0;
+    } */
+    .training-live-img{
+      width: 50%;
+    }
+    .training-live-photo-two{
+      width: 50%;
+    }
+    .training-live-img-two{
+      width: 50%;
+
     }
   }
 
