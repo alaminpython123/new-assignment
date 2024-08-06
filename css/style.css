@@ -728,7 +728,7 @@ body{
   }
   .team-man{
     background: rgba(255, 255, 255, 0.1);
-    padding: 30px;
+    padding: 20px;
 
   }
   .team-man-flex{
@@ -813,6 +813,113 @@ body{
 
   }
   /* team-section-end */
+
+  /* fitness-section-start */
+
+  .fitness-flex{
+    display: flex;
+  }
+  .fitness-tittle{
+    width: 50%;
+  }
+  .fitness-details{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .fitness{
+    padding-top: 50px;
+    background: #1f1d1d;
+    margin-top: -5px;
+    padding-bottom: 40px;
+
+  }
+  .fitness-tittle-sub{
+    width: 443px;
+  }
+  .fitness-tittle h1{
+    font-weight: 800px;
+    font-size: 70px;
+    line-height: 84px;
+    color: rgba(230, 83, 60, 1);
+    padding-bottom: 10px;
+
+  }
+  .fitness-tittle p{
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+
+  }
+
+  .fitness-sub-one  h3{
+    font-weight: 700px;
+    font-size: 32px;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 10px;
+
+  }
+  .fitness-sub-two h3{
+    font-weight: 700px;
+    font-size: 32px;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 10px;
+
+  }
+  .fitness-sub-one ul li{
+    list-style-type: none;
+    margin: 18px 0;
+  }
+  .fitness-sub-two ul li{
+    list-style-type: none;
+    margin: 18px 0;
+
+  }
+  .fitness-sub-one ul li a{
+    text-decoration: none;
+    font-weight: 400px;
+    font-size: 23px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.5);
+
+  }
+  .fitness-sub-two ul li a{
+    text-decoration: none;
+    font-weight: 400px;
+    font-size: 23px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.5);
+
+
+  }
+  .horizental{
+    background-color: #181818;
+    padding-bottom: 40px;
+  }
+  .var{
+    border: 2px solid rgba(255, 255, 255, 0.1)
+  }
+  .copy-right{
+    background-color: #181818;
+    padding-bottom: 30px;
+
+  }
+  .copy-tittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .copy-tittle p{
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+
+  }
+  /* fitness-section-end */
   /* website-style-end */
   /* Responsive-style-start */
   @media screen and (max-width:576px){
@@ -952,6 +1059,31 @@ body{
     width: 300px;
   }
   .team-man-photo-six{
+    width: 300px;
+  }
+  .fitness-flex{
+    flex-direction: column;
+  }
+  .fitness-tittle-sub{
+    width: 360px;
+    margin-bottom: 25px;
+  }
+  .fitness-details{
+    flex-direction: column;
+  }
+  .fitness-details{
+    width: 360px;
+  }
+  .horizental{
+    margin-top: -5px;
+  }
+  .var{
+    width: 300px;
+  }
+  .copy-right{
+    margin-top: -5px;
+  }
+  .copy-tittle{
     width: 300px;
   }
 }
