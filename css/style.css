@@ -643,7 +643,7 @@ body{
   form input{
     width: 100%;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.1);
     border: none;
@@ -662,7 +662,7 @@ body{
     border-radius: 10px;
     border: none;
     background: rgba(255, 255, 255, 0.1);
-    padding: 20px;
+    padding: 15px;
     font-weight: 400px;
     font-size: 16px;
     line-height: 22px;
@@ -670,7 +670,7 @@ body{
 
   }
   form .Extra-one{
-    padding: 10px;
+    padding: 15px;
     background: rgba(255, 255, 255, 0.1);
     margin-bottom: 20px;
 
@@ -700,6 +700,119 @@ body{
   }
 
   /* bmi-section-end */
+  /* team-section-start */
+  .team{
+    background-color: #181818;
+    padding-bottom: 60px;
+  }
+  .team-tittle{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .team-tittle h2{
+    font-weight: 900px;
+    font-size: 48px;
+    line-height: 57px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 10px;
+
+  }
+  .team-tittle p{
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 60px;
+
+  }
+  .team-man{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+
+  }
+  .team-man-flex{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  .team-man-photo{
+    width: 353px;
+    background-image: url(../images/trainer1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    
+  }
+  
+  .team-man-photo-two{
+    width: 353px;
+    background-image: url(../images/trainer2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+
+
+  }
+  .team-man-photo-three{
+    width: 353px;
+    background-image: url(../images/trainer3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+
+
+  }
+  .team-man-photo-four{
+    width: 353px;
+    background-image: url(../images/trainer4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+
+  }
+  .team-man-photo-five{
+    width: 353px;
+    background-image: url(../images/trainer5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+
+  }
+  .team-man-photo-six{
+    width: 353px;
+    background-image: url(../images/trainer6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+
+  }
+  .team-photo-tittle{
+    padding-top: 200px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+  }
+  .team-photo-tittle h4{
+    font-weight: 900px;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+
+  }
+  .team-photo-tittle p{
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+
+  }
+  /* team-section-end */
   /* website-style-end */
   /* Responsive-style-start */
   @media screen and (max-width:576px){
@@ -811,10 +924,35 @@ body{
       flex-direction: column;
     }
     .bmi-calculation{
-      width: 370px;
+      width: 350px;
       margin-top: 0px;
       padding-bottom: 40px;
   
+  }
+  .team-tittle{
+    width: 350px;
+    margin-top: -5px;
+  }
+  .team-man-flex{
+    flex-direction: column;
+  }
+  .team-man-photo{
+    width: 300px;
+  }
+  .team-man-photo-two{
+    width: 300px;
+  }
+  .team-man-photo-three{
+    width: 300px;
+  }
+  .team-man-photo-four{
+    width: 300px;
+  }
+  .team-man-photo-five{
+    width: 300px;
+  }
+  .team-man-photo-six{
+    width: 300px;
   }
 }
 
