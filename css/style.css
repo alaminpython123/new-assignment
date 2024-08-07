@@ -67,14 +67,11 @@ body{
 
   }
   .manu-item{
-    position: relative;
+    display: flex;
+
+
   }
-  .toggol-bar{
-    color: #FFFF;
-    font-size: 25px;
-    position: absolute;
-    margin-top: -20px;
-    margin-left: 330px;
+  .toggle-bar{
     display: none;
   }
   .flex-three{
@@ -930,11 +927,14 @@ body{
         max-width: 353px;
         margin: 0 auto;
     }
-    .manu-item{
+    .manu-item .flex-two{
         display: none;
+        border: 1px solid red;
     }
-    .toggol-bar{
+    .toggle-bar{
         display:block;
+        color: white;
+        font-size: 30px;
     }
     .flex-three{
         flex-direction: column;
