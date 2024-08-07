@@ -929,7 +929,6 @@ body{
     }
     .manu-item .flex-two{
         display: none;
-        border: 1px solid red;
     }
     .toggle-bar{
         display:block;
