@@ -59,16 +59,22 @@ body{
   }
   .main-hedar .flex-two li{
     list-style-type: none;
-    margin-left: 40px;
+    margin-right: 40px;
   }
   .flex-two li a{
     text-decoration: none;
     color:  rgba(255, 255, 255, 1);
 
   }
+  .special{
+    background: rgba(230, 83, 60, 1);
+    padding: 8px 20px 10px 20px;
+    border-radius: 60px;
+  }
   .manu-item{
-    display: flex;
-
+    border: 2px solid #2e2d2d;
+    padding: 10px 10px 10px 0px;
+    border-radius: 25px;
 
   }
   .toggle-bar{
