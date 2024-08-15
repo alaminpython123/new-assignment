@@ -933,6 +933,10 @@ body{
         max-width: 353px;
         margin: 0 auto;
     }
+    .manu-item{
+      border: none;
+      border-radius: none;
+    }
     .manu-item .flex-two{
         display: none;
     }
@@ -1091,6 +1095,7 @@ body{
   .copy-tittle{
     width: 300px;
   }
+
 }
 
   /* Responsive-style-end */
